@@ -1,0 +1,64 @@
+.box {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Link {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.Link:hover {
+    color: red;
+}
+
+.content {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 5fr;
+}
+
+.box_prof {
+    height: 100%;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 200px;
+    margin-right: 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Linkk {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.Linkk:hover {
+    color: red;
+}
